@@ -896,6 +896,10 @@ hr.contrasting-line
 	padding: 8px 8px;
 }
 
+.fafafa {
+	padding: 12px;
+}
+
 .fafafa:hover
 {
 	color: black;
