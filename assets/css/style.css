@@ -969,9 +969,9 @@ hr.contrasting-line
 }
 
 
-/* /////////////////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////// */
 
 /* SECTIONS PAGE CONTACT*/
 
@@ -1064,17 +1064,17 @@ hr.contrasting-line
 }
 
 .address-info-two {
-	margin-top: 1rem;
+	margin-top: 1.9rem;
 }
 
 .icons-block
 {
 	/* border: 0.5px solid rgba(255, 230, 230, 0.5); */
-	margin-top: 15px;
+	margin-top: 1.9rem;
 }
 
 .under-icons-title {
-	height: 0.9rem;
+	height: 1.3rem;
 	/* border: 0.5px solid rgba(255, 230, 230, 0.5); */
 }
 
@@ -1223,6 +1223,11 @@ span.bolder-span {
 	font-size: 0.8em;
 }
 
+.form-group {
+	display: flex;
+	flex-direction: column;
+}
+
 form
 {
 	margin-top: 20px;
@@ -1235,6 +1240,7 @@ form
 
 #exampleFormControlTextarea1 {
 	margin-top: 0.7rem;
+	border: 1px solid #cccccc;
 }
 
 .form-check-input {
