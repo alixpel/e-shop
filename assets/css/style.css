@@ -398,7 +398,20 @@ header
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 3rem;
+	border: 0.5px dashed rgb(220, 220, 220);
+	border-radius: 0.1rem;
+	padding: 0.6rem 0.6rem 0.2rem 0.6rem;
 	/*border: 0.5px solid rgba(255, 230, 230, 0.2);*/
+}
+
+.bonus-plus-voucher, .bonus-plus-cards {
+	margin-top: 0.4rem;
+}
+
+.bonus-minus-group-affiliate, .bonus-minus-group-voucher, .bonus-minus-group-cards {
+	border: 0.5px dashed rgb(220, 220, 220);
+	border-radius: 0.1rem;
+	padding: 0.6rem 0.6rem 0.2rem 0.6rem;
 }
 
 .bonus-minus
@@ -414,7 +427,7 @@ header
 
 .bonus-text, .bonus
 {
-	margin: 0.5rem 0rem 1.5rem 0rem;
+	margin: 0.5rem 0rem 0.5rem 0rem;
 }
 
 
