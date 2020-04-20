@@ -351,6 +351,7 @@ header
 	justify-content: space-between;
 	align-items: flex-start;
 	margin: auto;
+	margin-top: 1rem;
 	width: 80%;
 	/*border: 0.5px solid rgba(255, 230, 230, 0.2);*/
 }
@@ -361,6 +362,7 @@ header
 	flex-direction: column;
 	justify-content: space-between;
 	width: 30%;
+	height: 27rem;
 	/*border: 0.5px solid rgba(255, 230, 230, 0.2);*/
 	margin: 20px 0px;
 }
@@ -381,12 +383,21 @@ header
 	margin-left: 1rem;
 }
 
-.bonus, .bonus-plus
+.three-bonuses {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 100%;
+	margin-top: 0.5rem;
+}
+
+.bonus, .bonus-plus-affiliate, .bonus-plus-voucher, .bonus-plus-cards
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 3rem;
 	/*border: 0.5px solid rgba(255, 230, 230, 0.2);*/
 }
 
@@ -397,16 +408,13 @@ header
 	justify-content: space-between;
 	align-items: center;
 	color: rgb(255, 193, 7);
+	margin-bottom: 0.5rem;
 }
 
-.bonus-text
-{
-	/*border: 0.5px solid rgba(255, 230, 230, 0.2);*/
-}
 
 .bonus-text, .bonus
 {
-	margin: 10px 0px;
+	margin: 0.5rem 0rem 1.5rem 0rem;
 }
 
 
@@ -897,6 +905,10 @@ hr.contrasting-line
 
 .fa-th {
 	color: rgb(250, 193, 7);
+}
+
+.fa-plus, .fa-minus {
+	padding: 0.2rem;
 }
 
 .fa-user, .fa-truck, .fa-tag, .fa-gift
