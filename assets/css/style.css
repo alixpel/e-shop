@@ -169,6 +169,14 @@ header
 	/*padding-bottom: 20px;*/
 }
 
+.display {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 3.2rem;
+	font-size: 1.4rem;
+}
+
 .collection-line {
 	height: 4px;
 	width: 57.5rem;
@@ -886,6 +894,11 @@ hr.contrasting-line
 }
 
 /*////////////////////////////////////////// fontawesome */
+
+.fa-th {
+	color: rgb(250, 193, 7);
+}
+
 .fa-user, .fa-truck, .fa-tag, .fa-gift
 {
 	color: white;
